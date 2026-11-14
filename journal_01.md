@@ -3,23 +3,23 @@ If you wanted to know the date and times of your final exams, would you know whe
 
 Up until this point, I usually just waited for the final exam times to announced in class. But in my defense, it's not entirely due to laziness on my part! The CSU Chico website has a subtly deceptive usability issue. If I started to get curious about my finals week schedule¸ I would navigate to the Student Center dashboard, where most information about student academics, scheduling, and enrollment is found. 
 
-![image](https://hackmd.io/_uploads/rJ1798HCfg.png)
+![image](assets/Screenshot_2026-11-13_19-48-33.png)
 
 Now, I am surrounded by a huge amount of information. Luckily for me, the website maintains a logical and orderly **hierarchy of information**... or so I thought! Remember, my goal is to find my final exam schedule, so I open the sidebar and click "My Schedule".
 
-![image](https://hackmd.io/_uploads/HJBQjLHCGg.png)
+![image](assets/Screenshot_2026-11-13_19-51-36.png)
 
 It *seems* a logical choice. I've opened this tab before; it tells me that I have Usability Engineering at 2:00 on Tuesdays and Wednesdays. It shows me that my Parallel Programming class has both a lecture and a lab section. Surely it will offer me the times and dates for my final exams.
 
-![image](https://hackmd.io/_uploads/r1SIpLBRGl.png)
+![image](assets/Screenshot_2026-11-13_20-02-12.png)
 
 Immediately, I see my weekly class schedule. This is not what I'm looking for, so I skim the control buttons at the top of the page. I see the view switcher, and click the button that flips to List View.
 
-![image](https://hackmd.io/_uploads/rykhgvH0Me.png)
+![image](assets/Screenshot_2026-11-13_20-16-31.png)
 
 To my excitement, there is a tab, next to the Class Schedule, titled Class Exams. *Yes! Now we're getting somewhere,* I think to myself, not unlike a hare wandering into a deadfall trap. I click on Class Exams and...
 
-![image](https://hackmd.io/_uploads/SJicQwSCGg.png)
+![image](assets/Screenshot_2026-11-13_20-29-00.png)
 
 Nothing. Barren emptiness. Betrayal rises in my chest! I shrug and conclude that maybe the powers that be just haven't decided on the final exam times yet, and give up.
 
@@ -29,21 +29,22 @@ This also could have been avoided from a design perspective. In fact, this probl
 
 I later discovered that my failed method of finding my finals schedule is in fact the *recommended* method on the "Culminating Activities and Final Exams" page of the CSU Chico website.
 
-![image](https://hackmd.io/_uploads/By4tyKBCGx.png)
+![image](assets/Screenshot_2026-11-13_22-22-38.png)
 
 If I had followed the university's own documentation, I still would have ended up with a blank page.
 
 As I mentioned before, I only recently discovered how to find my finals schedule. There are two methods that I have found. First, it is possible to find it from the calendar view of the My Schedules page by clicking forward through each week until it shows the finals week. In retrospect, this does seem pretty natural, although it takes a long time to get to the right week when each page takes a full second to load. Nevertheless, I should have thought of this one a long time ago.
 
-![image](https://hackmd.io/_uploads/HykSRdSAMx.png)
+![image](assets/Screenshot_2026-11-13_22-25-36.png)
 
 The other method is so hidden, its discovery should be published in an archaeology journal. Remember way back at the beginning, in the student center dashboard? Well, on that page, there's a little tab that says "Academics" that shows a bunch of random stuff collected from other pages.
 
-![image](https://hackmd.io/_uploads/ryQhZKHRzg.png)
+![image](assets/Screenshot_2026-11-13_22-36-57.png)
 
 Way, way down at the very bottom of this page, there is a widget displaying the times, dates, and locations of all my final exams.
 
-![image](https://hackmd.io/_uploads/S1e-hfKrRfg.png)
+![image](assets/Screenshot_2026-11-13_22-41-40.png)
+
 
 Never, if I spent a thousand hours searching, would I have found this if somebody hadn't pointed it out to me. No matter how nifty a widget is, no matter how handy the information it offers, it doesn't make a difference if it's not easily **reachable** by the user. Once you know where this widget is, it's not hard to find, but how would I have ever known where to find it without being explicitly told? Good UX designs use affordances to *show* users how things work without needing to be told.
 
